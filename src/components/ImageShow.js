@@ -1,9 +1,5 @@
-function ImageShow() {
-  return (
-    <div>
-      <h1>ImageShow</h1>
-    </div>
-  );
+function ImageShow({ image }) {
+  return <div>{image.alt_description}</div>;
 }
 
 export default ImageShow;
